@@ -1,0 +1,14 @@
+
+import unittest
+
+class TestDec2Bin(unittest.TestCase):
+
+    def setUp(self):
+        pass
+
+    def test_0(self):
+        self.assertEqual(dec2bin(0),'0')
+
+    
+
+    
